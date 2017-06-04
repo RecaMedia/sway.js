@@ -16,7 +16,8 @@
     "babel-preset-es2015": "^6.24.1"
   },
   "scripts": {
-    "babel": "babel --presets es2015 sway.js -o sway.min.js"
+    "babel": "babel --presets es2015 sway.es6.js -o sway.js",
+    "webpack": "webpack"
   },
   "repository": {
     "type": "git",
